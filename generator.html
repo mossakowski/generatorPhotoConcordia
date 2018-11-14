@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Concordia Knurów</title>
+  <!-- <link rel="stylesheet" href="css/style.css"> -->
+  <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+</head>
+
+<body>
+
+  <h2 style="color:#000;">Generator kodu do galerii zdjec</h2>
+
+  <form id="formGenerator">
+    <br><br>
+    Rok dodania zdjęcia:
+    <select id="yearAddedPhoto"></select>
+
+    <br><br>
+    Miesiac dodania zdjecia:
+    <select id="monthAddedPhoto"></select>
+
+    <br>
+    <br>
+    Wgraj pliki:
+    <br>
+    <input id="multiple-input" type="file" name="filefield" multiple="multiple">
+  </form>
+
+  <button id="buttonGenerateCode">Generuj!</button>
+
+  <div id="generatedCodeGoalkeepers">
+    <h2>Bramkarze:</h2>
+  </div>
+  <div id="generatedCodeDefenders">
+    <h2>Obrońcy</h2>
+  </div>
+  <div id="generatedCodeMidfielder">
+    <h2>Pomocnicy:</h2>
+  </div>
+  <div id="generatedCodeAttacker">
+    <h2>Napastnicy:</h2>
+  </div>
+  <div id="generatedCodePlayer">
+    <h2>Zawodnicy:</h2>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
